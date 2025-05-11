@@ -1,0 +1,36 @@
+embedding:
+  # Provider for the embedding model: "huggingface" or "azure_openai"
+  # Azure OpenAI model name for embeddings
+  # model_path: "text-embedding-ada-002"
+  # provider: "azure_openai"
+  # Uncomment and modify the following lines to use HuggingFace for embeddings
+  model_path: "model/finance_embeddings"
+  provider: "huggingface"
+
+clustering:
+  # Maximum size of each cluster
+  max_cluster_size: 10
+  # Maximum number of clusters
+  max_clusters: 20
+
+language_model:
+  # Azure OpenAI model deployment name for language model
+  # model_path: "gpt-4o"
+  # Provider for the language model: "huggingface" or "azure_openai"
+  # provider: "azure_openai"
+  # Uncomment and modify the following lines to use HuggingFace for language model
+  model_path: "model/qwen3-1.7B"
+  provider: "huggingface"
+
+output:
+  # Directory for temporary files
+  tmp_dir: "tmp"
+  # Directory for final results
+  result_dir: "result"
+
+datasets:
+  dev:
+    - data/dev1_with_id.csv
+  hld:
+    - data/hld1.csv
+    - data/hld2.csv
