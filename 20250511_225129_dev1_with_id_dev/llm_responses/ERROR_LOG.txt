@@ -1,0 +1,69 @@
+2025-05-11 23:31:50,189 - src.deduping - INFO - Successfully selected best attribute: 'age' (ID: attr_28) from group ['age', 'years_old', 'customer_age'] using LLM.
+2025-05-11 23:31:50,189 - src.deduping - INFO - Completed selection in 113.69 seconds
+2025-05-11 23:31:50,189 - src.deduping - INFO - Selected best attribute for group cluster_6_1: 'age' (ID: attr_28) with reasoning: 'The attribute 'age' is clearly descriptive and follows standard naming conventions. It directly corresponds to the definition provided, which states 'Age of the customer in years,' making it the most appropriate choice.'
+2025-05-11 23:31:50,190 - src.deduping - INFO - Marked 'age' (ID: attr_28) to be kept for group cluster_6_1.
+2025-05-11 23:31:50,191 - src.deduping - INFO - Selecting best attribute for group cluster_6_2 (11/11) with attributes: ['gender', 'sex']
+2025-05-11 23:31:50,191 - src.deduping - INFO - Starting selection
+2025-05-11 23:31:50,191 - src.deduping - INFO - Selecting best attribute from group of 2 attributes
+2025-05-11 23:31:50,191 - src.deduping - INFO - Duplicate group: ['gender', 'sex']
+2025-05-11 23:31:50,191 - src.deduping - INFO - Starting generate_response
+2025-05-11 23:31:50,191 - src.deduping - INFO - Generating response with huggingface model model/qwen3-1.7B
+2025-05-11 23:31:50,191 - src.deduping - INFO - Parameters: max_tokens=2048, temp=0.2, repeat_penalty=1.2
+2025-05-11 23:31:50,191 - src.deduping - INFO - Tokenizing prompt for local model generation
+2025-05-11 23:31:50,193 - src.deduping - INFO - Prompt tokenized in 0.00s, contains 341 tokens
+2025-05-11 23:31:50,193 - src.deduping - INFO - Starting model generation on device mps:0...
+/Users/samcc/Documents/WindsurfProject/drd_dedup2/.venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+2025-05-11 23:33:41,592 - src.deduping - INFO - Model generation complete in 111.40s
+2025-05-11 23:33:41,592 - src.deduping - INFO - Generated 2048 new tokens at 18.38 tokens/second
+2025-05-11 23:33:41,592 - src.deduping - INFO - Response length: 9155 characters
+2025-05-11 23:33:41,592 - src.deduping - INFO - Memory usage: before=5965.19MB, after=5957.03MB, diff=-8.16MB
+2025-05-11 23:33:41,592 - src.deduping - INFO - Completed generate_response in 111.40 seconds
+2025-05-11 23:33:41,592 - src.deduping - INFO - Starting save_response
+2025-05-11 23:33:41,592 - src.deduping - INFO - Saving LLM response for context 'select_best_attribute_group_gender_sex' (length: 9151 chars)
+2025-05-11 23:33:41,593 - src.deduping - INFO - Saved LLM response to tmp/20250511_225129_dev1_with_id_dev/llm_responses/select_best_attribute_group_gender_sex_20250511_233341592294_f734f6a4.txt (size: 8.94 KB)
+2025-05-11 23:33:41,593 - src.deduping - INFO - Completed save_response in 0.00 seconds
+2025-05-11 23:33:41,593 - src.deduping - INFO - Starting extract_json_from_response
+2025-05-11 23:33:41,593 - src.deduping - INFO - Extracting JSON from response (length: 9151 chars)
+2025-05-11 23:33:41,593 - src.deduping - INFO - Step 1: Attempting to extract JSON from code block delimiters
+2025-05-11 23:33:41,593 - src.deduping - INFO - ❌ Code block extraction failed: Expecting value: line 1 column 1 (char 0), trying last JSON object extraction
+2025-05-11 23:33:41,593 - src.deduping - INFO - Step 2: Attempting to extract last complete JSON object using regex
+2025-05-11 23:33:41,593 - src.deduping - WARNING - Error in regex pattern matching: unknown extension ?R at position 12
+2025-05-11 23:33:41,593 - src.deduping - INFO - Step 3: Attempting to extract JSON with 'duplicates' key pattern
+2025-05-11 23:33:41,593 - src.deduping - WARNING - ⚠️ No valid JSON found, attempting to extract structured information from text
+2025-05-11 23:33:41,593 - src.deduping - WARNING - ❌ Could not extract structured information, returning default empty structure
+2025-05-11 23:33:41,593 - src.deduping - INFO - Completed extract_json_from_response in 0.00 seconds
+2025-05-11 23:33:41,593 - src.deduping - ERROR - Failed to extract valid JSON with 'best_attribute' and 'best_attribute_id' keys from LLM response in select_best_attribute for group ['gender', 'sex']. Response: Okay, let's tackle this problem step by step. So, the task is to determine which of the two attributes, gender or sex, is the better choice based on naming conventions, definitions, and industry standards.
+
+First, I need to recall the criteria given. The best attribute should have a clear, descriptive name following standard naming conventions, a comprehensive and precise definition, and consistency with industry standards.
+
+Looking at the two attributes:
+
+Attribute 31: Name is "gender", Definit
+2025-05-11 23:33:41,593 - src.deduping - WARNING - Defaulting to first attribute in group due to parsing failure or missing key.
+2025-05-11 23:33:41,595 - src.deduping - INFO - Selection defaulted to: 'gender' (ID: attr_31)
+2025-05-11 23:33:41,595 - src.deduping - INFO - Completed selection in 111.40 seconds
+2025-05-11 23:33:41,595 - src.deduping - INFO - Selected best attribute for group cluster_6_2: 'gender' (ID: attr_31) with reasoning: 'Defaulted selection due to LLM response error or invalid/missing 'best_attribute' or 'best_attribute_id'.'
+2025-05-11 23:33:41,595 - src.deduping - INFO - Marked 'gender' (ID: attr_31) to be kept for group cluster_6_2.
+2025-05-11 23:33:41,597 - src.deduping - INFO - Duplicate detection summary:
+2025-05-11 23:33:41,597 - src.deduping - INFO -   - Total attributes processed: 100
+2025-05-11 23:33:41,597 - src.deduping - INFO -   - Attributes to keep: 84
+2025-05-11 23:33:41,597 - src.deduping - INFO -   - Duplicate attributes to remove: 16
+2025-05-11 23:33:41,597 - src.deduping - INFO -   - Duplicate reduction: 16.0%
+2025-05-11 23:33:41,597 - src.deduping - INFO - Saving final results to tmp/20250511_225129_dev1_with_id_dev/duplicates/duplicate_detection_results.csv
+2025-05-11 23:33:41,609 - src.deduping - INFO - Final memory usage: 5960.73 MB (change: +5372.11 MB)
+2025-05-11 23:33:41,609 - src.deduping - INFO - Duplicate detection completed in 2528.50 seconds
+2025-05-11 23:33:41,643 - src.deduping - INFO - Completed run_dedup in 2528.53 seconds
+2025-05-11 23:33:41,644 - __main__ - INFO - Completed duplicate detection
+2025-05-11 23:33:41,650 - __main__ - INFO - Saving final deduplication results to result/20250511_225129_dev1_with_id_dev/deduplication_results.csv
+2025-05-11 23:33:41,651 - __main__ - ERROR - Error in final output generation: DataUtility.text_operation() got an unexpected keyword argument 'data_frame'
+2025-05-11 23:33:41,651 - root - ERROR - Error in deduplication process: DataUtility.text_operation() got an unexpected keyword argument 'data_frame'
+Traceback (most recent call last):
+  File "/Users/samcc/Documents/WindsurfProject/drd_dedup2/src/main.py", line 478, in main
+    output_file = process_attributes(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/Users/samcc/Documents/WindsurfProject/drd_dedup2/src/main.py", line 412, in process_attributes
+    data_utility.text_operation('save', str(final_output_path), data_frame=final_df, file_type='csv')
+TypeError: DataUtility.text_operation() got an unexpected keyword argument 'data_frame'
+Error: DataUtility.text_operation() got an unexpected keyword argument 'data_frame'
+[DEV RUN] Error: Deduplication failed for data/dev1_with_id.csv. Exiting.

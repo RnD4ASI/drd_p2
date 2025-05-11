@@ -1,0 +1,43 @@
+attribute_name,attribute_definition
+customer_id,Unique identifier for the customer
+client_id,Unique identifier for the client
+user_identifier,Unique identifier for the user
+transaction_amount,Amount of the transaction in dollars
+payment_value,Value of the payment in dollars
+monetary_sum,Sum of money in dollars
+product_category,Category of the product
+item_type,Type of the item
+product_classification,Classification of the product
+timestamp,Time when the event occurred
+event_time,Time when the event took place
+transaction_datetime,Date and time of the transaction
+email_address,Email address of the customer
+contact_email,Email contact information
+electronic_mail,Electronic mail address for communication
+phone_number,Phone number of the customer
+contact_phone,Phone contact information
+telephone,Telephone number for communication
+address,Physical address of the customer
+location,Location of the customer
+residence,Place of residence
+first_name,First name of the customer
+given_name,Given name of the person
+forename,Forename of the individual
+last_name,Last name of the customer
+surname,Surname of the person
+family_name,Family name of the individual
+age,Age of the customer in years
+years_old,How old the person is in years
+customer_age,Age of the customer
+gender,Gender of the customer
+sex,Sex of the person
+gender_identity,Gender identity of the individual
+income,Annual income of the customer
+annual_salary,Annual salary of the person
+yearly_earnings,Yearly earnings of the individual
+purchase_date,Date when the purchase was made
+order_date,Date when the order was placed
+acquisition_date,Date when the item was acquired
+customer_segment,Segment the customer belongs to
+client_category,Category the client belongs to
+user_group,Group the user belongs to

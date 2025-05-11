@@ -1,0 +1,14 @@
+{
+    "group_id": "cluster_2_1",
+    "attributes": [
+        "email_address",
+        "contact_email",
+        "electronic_mail",
+        "phone_number",
+        "contact_phone",
+        "telephone"
+    ],
+    "best_attribute": "email_address",
+    "best_attribute_id": "attr_13",
+    "reasoning": "This attribute follows standard naming conventions, has a clear and precise definition, and is widely recognized in data management practices for representing an email address of the customer."
+}

@@ -1,0 +1,101 @@
+attribute_name,attribute_definition
+customer_id,Unique identifier for the customer
+client_id,Unique identifier for the client
+user_identifier,Unique identifier for the user
+transaction_amount,Amount of the transaction in dollars
+payment_value,Value of the payment in dollars
+monetary_sum,Sum of money in dollars
+product_category,Category of the product
+item_type,Type of the item
+product_classification,Classification of the product
+timestamp,Time when the event occurred
+event_time,Time when the event took place
+transaction_datetime,Date and time of the transaction
+email_address,Email address of the customer
+contact_email,Email contact information
+electronic_mail,Electronic mail address for communication
+phone_number,Phone number of the customer
+contact_phone,Phone contact information
+telephone,Telephone number for communication
+address,Physical address of the customer
+location,Location of the customer
+residence,Place of residence
+first_name,First name of the customer
+given_name,Given name of the person
+forename,Forename of the individual
+last_name,Last name of the customer
+surname,Surname of the person
+family_name,Family name of the individual
+age,Age of the customer in years
+years_old,How old the person is in years
+customer_age,Age of the customer
+gender,Gender of the customer
+sex,Sex of the person
+gender_identity,Gender identity of the individual
+income,Annual income of the customer
+annual_salary,Annual salary of the person
+yearly_earnings,Yearly earnings of the individual
+attribute_0,Definition for attribute_0
+attribute_1,Definition for attribute_1
+attribute_2,Definition for attribute_2
+attribute_3,Definition for attribute_3
+attribute_4,Definition for attribute_4
+attribute_5,Definition for attribute_5
+attribute_6,Definition for attribute_6
+attribute_7,Definition for attribute_7
+attribute_8,Definition for attribute_8
+attribute_9,Definition for attribute_9
+attribute_10,Definition for attribute_10
+attribute_11,Definition for attribute_11
+attribute_12,Definition for attribute_12
+attribute_13,Definition for attribute_13
+attribute_14,Definition for attribute_14
+attribute_15,Definition for attribute_15
+attribute_16,Definition for attribute_16
+attribute_17,Definition for attribute_17
+attribute_18,Definition for attribute_18
+attribute_19,Definition for attribute_19
+attribute_20,Definition for attribute_20
+attribute_21,Definition for attribute_21
+attribute_22,Definition for attribute_22
+attribute_23,Definition for attribute_23
+attribute_24,Definition for attribute_24
+attribute_25,Definition for attribute_25
+attribute_26,Definition for attribute_26
+attribute_27,Definition for attribute_27
+attribute_28,Definition for attribute_28
+attribute_29,Definition for attribute_29
+attribute_30,Definition for attribute_30
+attribute_31,Definition for attribute_31
+attribute_32,Definition for attribute_32
+attribute_33,Definition for attribute_33
+attribute_34,Definition for attribute_34
+attribute_35,Definition for attribute_35
+attribute_36,Definition for attribute_36
+attribute_37,Definition for attribute_37
+attribute_38,Definition for attribute_38
+attribute_39,Definition for attribute_39
+attribute_40,Definition for attribute_40
+attribute_41,Definition for attribute_41
+attribute_42,Definition for attribute_42
+attribute_43,Definition for attribute_43
+attribute_44,Definition for attribute_44
+attribute_45,Definition for attribute_45
+attribute_46,Definition for attribute_46
+attribute_47,Definition for attribute_47
+attribute_48,Definition for attribute_48
+attribute_49,Definition for attribute_49
+attribute_50,Definition for attribute_50
+attribute_51,Definition for attribute_51
+attribute_52,Definition for attribute_52
+attribute_53,Definition for attribute_53
+attribute_54,Definition for attribute_54
+attribute_55,Definition for attribute_55
+attribute_56,Definition for attribute_56
+attribute_57,Definition for attribute_57
+attribute_58,Definition for attribute_58
+attribute_59,Definition for attribute_59
+attribute_60,Definition for attribute_60
+attribute_61,Definition for attribute_61
+attribute_62,Definition for attribute_62
+attribute_63,Definition for attribute_63

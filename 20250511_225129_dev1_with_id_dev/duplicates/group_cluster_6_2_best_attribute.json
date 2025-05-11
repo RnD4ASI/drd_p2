@@ -1,0 +1,10 @@
+{
+    "group_id": "cluster_6_2",
+    "attributes": [
+        "gender",
+        "sex"
+    ],
+    "best_attribute": "gender",
+    "best_attribute_id": "attr_31",
+    "reasoning": "Defaulted selection due to LLM response error or invalid/missing 'best_attribute' or 'best_attribute_id'."
+}

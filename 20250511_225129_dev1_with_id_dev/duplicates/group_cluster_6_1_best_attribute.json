@@ -1,0 +1,11 @@
+{
+    "group_id": "cluster_6_1",
+    "attributes": [
+        "age",
+        "years_old",
+        "customer_age"
+    ],
+    "best_attribute": "age",
+    "best_attribute_id": "attr_28",
+    "reasoning": "The attribute 'age' is clearly descriptive and follows standard naming conventions. It directly corresponds to the definition provided, which states 'Age of the customer in years,' making it the most appropriate choice."
+}

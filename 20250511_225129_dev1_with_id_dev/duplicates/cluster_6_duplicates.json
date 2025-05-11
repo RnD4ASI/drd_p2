@@ -1,0 +1,59 @@
+{
+    "attributes": [
+        "age",
+        "years_old",
+        "customer_age",
+        "gender",
+        "sex",
+        "income"
+    ],
+    "duplicates": [
+        {
+            "id": "attr_28",
+            "name": "age",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_29",
+            "name": "years_old",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_30",
+            "name": "customer_age",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_31",
+            "name": "gender",
+            "is_duplicate": true,
+            "group": 2
+        },
+        {
+            "id": "attr_32",
+            "name": "sex",
+            "is_duplicate": true,
+            "group": 2
+        },
+        {
+            "id": "attr_34",
+            "name": "income",
+            "is_duplicate": false,
+            "group": null
+        }
+    ],
+    "duplicate_groups": {
+        "1": [
+            "age",
+            "years_old",
+            "customer_age"
+        ],
+        "2": [
+            "gender",
+            "sex"
+        ]
+    }
+}

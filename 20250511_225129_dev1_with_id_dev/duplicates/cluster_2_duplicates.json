@@ -1,0 +1,58 @@
+{
+    "attributes": [
+        "email_address",
+        "contact_email",
+        "electronic_mail",
+        "phone_number",
+        "contact_phone",
+        "telephone"
+    ],
+    "duplicates": [
+        {
+            "id": "attr_13",
+            "name": "email_address",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_14",
+            "name": "contact_email",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_15",
+            "name": "electronic_mail",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_16",
+            "name": "phone_number",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_17",
+            "name": "contact_phone",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_18",
+            "name": "telephone",
+            "is_duplicate": true,
+            "group": 1
+        }
+    ],
+    "duplicate_groups": {
+        "1": [
+            "email_address",
+            "contact_email",
+            "electronic_mail",
+            "phone_number",
+            "contact_phone",
+            "telephone"
+        ]
+    }
+}

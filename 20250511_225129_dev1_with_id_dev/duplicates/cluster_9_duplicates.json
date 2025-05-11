@@ -1,0 +1,29 @@
+{
+    "attributes": [
+        "customer_id",
+        "client_id",
+        "user_identifier",
+        "first_name",
+        "last_name"
+    ],
+    "duplicates": [
+        {
+            "id": "attr_22",
+            "name": "first_name",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_25",
+            "name": "last_name",
+            "is_duplicate": true,
+            "group": 1
+        }
+    ],
+    "duplicate_groups": {
+        "1": [
+            "first_name",
+            "last_name"
+        ]
+    }
+}

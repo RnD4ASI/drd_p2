@@ -1,0 +1,33 @@
+{
+    "attributes": [
+        "address",
+        "location",
+        "residence"
+    ],
+    "duplicates": [
+        {
+            "id": "attr_19",
+            "name": "address",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_20",
+            "name": "location",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_21",
+            "name": "residence",
+            "is_duplicate": false,
+            "group": null
+        }
+    ],
+    "duplicate_groups": {
+        "1": [
+            "address",
+            "location"
+        ]
+    }
+}

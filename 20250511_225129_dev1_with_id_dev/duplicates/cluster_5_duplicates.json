@@ -1,0 +1,33 @@
+{
+    "attributes": [
+        "transaction_amount",
+        "payment_value",
+        "monetary_sum"
+    ],
+    "duplicates": [
+        {
+            "id": "attr_4",
+            "name": "transaction_amount",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_5",
+            "name": "payment_value",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_6",
+            "name": "monetary_sum",
+            "is_duplicate": false,
+            "group": null
+        }
+    ],
+    "duplicate_groups": {
+        "1": [
+            "transaction_amount",
+            "payment_value"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "group_id": "cluster_3_3",
+    "attributes": [
+        "annual_salary",
+        "yearly_earnings"
+    ],
+    "best_attribute": "annual_salary",
+    "best_attribute_id": "attr_35",
+    "reasoning": "The attribute 'annual_salary' uses a clear, standard naming convention and is more precisely defined as the fixed amount paid annually, aligning with industry standards. 'Yearly earnings' is less specific and less commonly used than 'annual salary.'"
+}

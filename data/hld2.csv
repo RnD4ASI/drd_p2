@@ -1,0 +1,42 @@
+attribute_name,attribute_definition
+customer_identifier,Unique identifier assigned to each customer
+transaction_value,Monetary value of the transaction
+purchase_amount,Amount paid for a purchase
+product_type,Type of product being sold or purchased
+service_category,Category of service provided
+event_timestamp,Timestamp when an event occurred
+transaction_time,Time when a transaction was processed
+email,Email address for contact purposes
+mail_address,Electronic mail address for sending communications
+phone,Telephone number for contact
+mobile_number,Mobile phone number for contact
+physical_address,Physical location where a person resides
+home_location,Location of a person's residence
+customer_name,Full name of the customer
+first_given_name,First given name of a person
+surname_family,Family name or surname of a person
+customer_birthdate,Date of birth of the customer
+age_in_years,Age of a person measured in years
+gender_type,Type of gender identity
+annual_income,Income earned annually
+yearly_revenue,Revenue generated in a year
+purchase_timestamp,Timestamp when a purchase was made
+order_placement_date,Date when an order was placed
+customer_classification,Classification of customers into segments
+user_segment,Segment that a user belongs to
+payment_method,Method used for payment
+payment_type,Type of payment used for transaction
+credit_score,Numerical score representing creditworthiness
+risk_rating,Rating indicating level of risk
+account_balance,Current balance in an account
+account_status,Current status of an account
+login_count,Number of times a user has logged in
+session_duration,Duration of a user session
+product_price,Price of a product
+item_cost,Cost of an item
+shipping_address,Address where items are shipped
+delivery_location,Location where items are delivered
+order_status,Current status of an order
+fulfillment_status,Status of order fulfillment
+subscription_type,Type of subscription
+membership_level,Level of membership

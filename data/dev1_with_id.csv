@@ -1,0 +1,101 @@
+attribute_id,attribute_name,attribute_definition
+attr_1,customer_id,Unique identifier for the customer
+attr_2,client_id,Unique identifier for the client
+attr_3,user_identifier,Unique identifier for the user
+attr_4,transaction_amount,Amount of the transaction in dollars
+attr_5,payment_value,Value of the payment in dollars
+attr_6,monetary_sum,Sum of money in dollars
+attr_7,product_category,Category of the product
+attr_8,item_type,Type of the item
+attr_9,product_classification,Classification of the product
+attr_10,timestamp,Time when the event occurred
+attr_11,event_time,Time when the event took place
+attr_12,transaction_datetime,Date and time of the transaction
+attr_13,email_address,Email address of the customer
+attr_14,contact_email,Email contact information
+attr_15,electronic_mail,Electronic mail address for communication
+attr_16,phone_number,Phone number of the customer
+attr_17,contact_phone,Phone contact information
+attr_18,telephone,Telephone number for communication
+attr_19,address,Physical address of the customer
+attr_20,location,Location of the customer
+attr_21,residence,Place of residence
+attr_22,first_name,First name of the customer
+attr_23,given_name,Given name of the person
+attr_24,forename,Forename of the individual
+attr_25,last_name,Last name of the customer
+attr_26,surname,Surname of the person
+attr_27,family_name,Family name of the individual
+attr_28,age,Age of the customer in years
+attr_29,years_old,How old the person is in years
+attr_30,customer_age,Age of the customer
+attr_31,gender,Gender of the customer
+attr_32,sex,Sex of the person
+attr_33,gender_identity,Gender identity of the individual
+attr_34,income,Annual income of the customer
+attr_35,annual_salary,Annual salary of the person
+attr_36,yearly_earnings,Yearly earnings of the individual
+attr_37,attribute_0,Definition for attribute_0
+attr_38,attribute_1,Definition for attribute_1
+attr_39,attribute_2,Definition for attribute_2
+attr_40,attribute_3,Definition for attribute_3
+attr_41,attribute_4,Definition for attribute_4
+attr_42,attribute_5,Definition for attribute_5
+attr_43,attribute_6,Definition for attribute_6
+attr_44,attribute_7,Definition for attribute_7
+attr_45,attribute_8,Definition for attribute_8
+attr_46,attribute_9,Definition for attribute_9
+attr_47,attribute_10,Definition for attribute_10
+attr_48,attribute_11,Definition for attribute_11
+attr_49,attribute_12,Definition for attribute_12
+attr_50,attribute_13,Definition for attribute_13
+attr_51,attribute_14,Definition for attribute_14
+attr_52,attribute_15,Definition for attribute_15
+attr_53,attribute_16,Definition for attribute_16
+attr_54,attribute_17,Definition for attribute_17
+attr_55,attribute_18,Definition for attribute_18
+attr_56,attribute_19,Definition for attribute_19
+attr_57,attribute_20,Definition for attribute_20
+attr_58,attribute_21,Definition for attribute_21
+attr_59,attribute_22,Definition for attribute_22
+attr_60,attribute_23,Definition for attribute_23
+attr_61,attribute_24,Definition for attribute_24
+attr_62,attribute_25,Definition for attribute_25
+attr_63,attribute_26,Definition for attribute_26
+attr_64,attribute_27,Definition for attribute_27
+attr_65,attribute_28,Definition for attribute_28
+attr_66,attribute_29,Definition for attribute_29
+attr_67,attribute_30,Definition for attribute_30
+attr_68,attribute_31,Definition for attribute_31
+attr_69,attribute_32,Definition for attribute_32
+attr_70,attribute_33,Definition for attribute_33
+attr_71,attribute_34,Definition for attribute_34
+attr_72,attribute_35,Definition for attribute_35
+attr_73,attribute_36,Definition for attribute_36
+attr_74,attribute_37,Definition for attribute_37
+attr_75,attribute_38,Definition for attribute_38
+attr_76,attribute_39,Definition for attribute_39
+attr_77,attribute_40,Definition for attribute_40
+attr_78,attribute_41,Definition for attribute_41
+attr_79,attribute_42,Definition for attribute_42
+attr_80,attribute_43,Definition for attribute_43
+attr_81,attribute_44,Definition for attribute_44
+attr_82,attribute_45,Definition for attribute_45
+attr_83,attribute_46,Definition for attribute_46
+attr_84,attribute_47,Definition for attribute_47
+attr_85,attribute_48,Definition for attribute_48
+attr_86,attribute_49,Definition for attribute_49
+attr_87,attribute_50,Definition for attribute_50
+attr_88,attribute_51,Definition for attribute_51
+attr_89,attribute_52,Definition for attribute_52
+attr_90,attribute_53,Definition for attribute_53
+attr_91,attribute_54,Definition for attribute_54
+attr_92,attribute_55,Definition for attribute_55
+attr_93,attribute_56,Definition for attribute_56
+attr_94,attribute_57,Definition for attribute_57
+attr_95,attribute_58,Definition for attribute_58
+attr_96,attribute_59,Definition for attribute_59
+attr_97,attribute_60,Definition for attribute_60
+attr_98,attribute_61,Definition for attribute_61
+attr_99,attribute_62,Definition for attribute_62
+attr_100,attribute_63,Definition for attribute_63
