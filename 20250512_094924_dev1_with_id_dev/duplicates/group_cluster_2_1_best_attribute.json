@@ -1,0 +1,11 @@
+{
+    "group_id": "cluster_2_1",
+    "attributes": [
+        "email_address",
+        "contact_email",
+        "electronic_mail"
+    ],
+    "best_attribute": "email_address",
+    "best_attribute_id": "attr_13",
+    "reasoning": "This attribute has a clear, descriptive name that follows standard naming conventions and has a comprehensive definition that accurately describes its purpose."
+}

@@ -1,0 +1,33 @@
+{
+    "attributes": [
+        "product_category",
+        "item_type",
+        "product_classification"
+    ],
+    "duplicates": [
+        {
+            "id": "attr_7",
+            "name": "product_category",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_9",
+            "name": "product_classification",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_8",
+            "name": "item_type",
+            "is_duplicate": false,
+            "group": null
+        }
+    ],
+    "duplicate_groups": {
+        "1": [
+            "product_category",
+            "product_classification"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "group_id": "cluster_6_1",
+    "attributes": [
+        "age",
+        "years_old",
+        "customer_age"
+    ],
+    "best_attribute": "customer_age",
+    "best_attribute_id": "attr_30",
+    "reasoning": "The attribute 'customer_age' has a clear, descriptive name that directly refers to the customer's age, and its definition 'Age of the customer' is precise and concise, aligning with standard data management practices."
+}

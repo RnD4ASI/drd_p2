@@ -1,0 +1,63 @@
+{
+    "attributes": [
+        "given_name",
+        "forename",
+        "surname",
+        "family_name",
+        "gender_identity",
+        "annual_salary",
+        "yearly_earnings"
+    ],
+    "duplicates": [
+        {
+            "id": "attr_23",
+            "name": "ID",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_24",
+            "name": "given_name",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_26",
+            "name": "surname",
+            "is_duplicate": true,
+            "group": 2
+        },
+        {
+            "id": "attr_27",
+            "name": "family_name",
+            "is_duplicate": true,
+            "group": 2
+        },
+        {
+            "id": "attr_35",
+            "name": "annual_salary",
+            "is_duplicate": true,
+            "group": 3
+        },
+        {
+            "id": "attr_36",
+            "name": "yearly_earnings",
+            "is_duplicate": true,
+            "group": 3
+        }
+    ],
+    "duplicate_groups": {
+        "1": [
+            "ID",
+            "given_name"
+        ],
+        "2": [
+            "surname",
+            "family_name"
+        ],
+        "3": [
+            "annual_salary",
+            "yearly_earnings"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+2025-05-12 09:49:27,248 - __main__ - INFO - Starting deduplication run: 20250512_094924_dev1_with_id_dev
+2025-05-12 09:49:27,248 - __main__ - INFO - Input file: data/dev1_with_id.csv
+2025-05-12 09:49:27,248 - __main__ - INFO - Mode: Standard
+2025-05-12 09:49:27,248 - __main__ - INFO - Initializing data utility...
+2025-05-12 09:49:27,248 - __main__ - INFO - Loading attributes from data/dev1_with_id.csv (standard mode)
+2025-05-12 09:49:27,249 - __main__ - INFO - Loaded 100 attributes from data/dev1_with_id.csv
+2025-05-12 09:49:27,249 - __main__ - INFO - PROGRESS: 15% - Loaded attributes
+2025-05-12 09:49:27,249 - __main__ - INFO - Saving copy of original data...
+2025-05-12 09:49:27,250 - __main__ - INFO - PROGRESS: 20% - Saved original data
+2025-05-12 09:49:27,251 - __main__ - INFO - Step 1: Applying text embedding model
+2025-05-12 09:49:27,251 - __main__ - INFO - PROGRESS: 25% - Starting embedding generation
+2025-05-12 09:49:27,251 - __main__ - INFO - Checking for existing embeddings...
+2025-05-12 09:49:27,251 - __main__ - INFO - No embedding files found
+2025-05-12 09:49:27,251 - __main__ - INFO - No matching embeddings found, generating new ones...
+2025-05-12 09:49:27,971 - __main__ - INFO - Generated 100 embeddings
+2025-05-12 09:49:27,971 - __main__ - INFO - Saving embeddings to standard location for compatibility...
+2025-05-12 09:49:27,971 - __main__ - INFO - PROGRESS: 40% - Embeddings generated and saved with full precision
+2025-05-12 09:49:27,971 - __main__ - INFO - Step 2: Applying K-means clustering
+2025-05-12 09:49:27,971 - __main__ - INFO - PROGRESS: 45% - Starting clustering
+2025-05-12 09:49:28,174 - __main__ - INFO - Clustered attributes into 10 clusters
+2025-05-12 09:49:28,174 - __main__ - INFO - PROGRESS: 60% - Clustering complete
+2025-05-12 09:49:28,178 - __main__ - INFO - Step 3 & 4: Detecting duplicates and selecting best attributes
+2025-05-12 09:49:28,178 - __main__ - INFO - PROGRESS: 65% - Starting duplicate detection
+2025-05-12 10:47:20,043 - __main__ - INFO - Completed duplicate detection
+2025-05-12 10:47:20,048 - __main__ - INFO - Saving final deduplication results to result/20250512_094924_dev1_with_id_dev/deduplication_results.csv
+2025-05-12 10:47:20,049 - __main__ - INFO - PROGRESS: 90% - Final results saved
+2025-05-12 10:47:20,053 - __main__ - INFO - PROGRESS: 95% - Run metadata saved
+2025-05-12 10:47:20,055 - __main__ - INFO - Deduplication completed in 3472.81 seconds
+2025-05-12 10:47:20,055 - __main__ - INFO - Found 15 duplicates in 100 attributes
+2025-05-12 10:47:20,055 - __main__ - INFO - Final results saved to result/20250512_094924_dev1_with_id_dev/deduplication_results.csv
+2025-05-12 10:47:20,055 - __main__ - INFO - ========== ATTRIBUTE PROCESSING COMPLETE ===========

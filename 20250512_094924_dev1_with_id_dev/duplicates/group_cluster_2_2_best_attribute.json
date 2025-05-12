@@ -1,0 +1,11 @@
+{
+    "group_id": "cluster_2_2",
+    "attributes": [
+        "phone_number",
+        "contact_phone",
+        "telephone"
+    ],
+    "best_attribute": "phone_number",
+    "best_attribute_id": "attr_16",
+    "reasoning": "The 'phone_number' attribute follows standard naming conventions, has a clear and precise definition, and is widely used in data management practices to denote a customer's phone number."
+}

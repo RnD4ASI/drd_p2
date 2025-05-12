@@ -1,0 +1,33 @@
+{
+    "attributes": [
+        "timestamp",
+        "event_time",
+        "transaction_datetime"
+    ],
+    "duplicates": [
+        {
+            "id": "attr_10",
+            "name": "timestamp",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_11",
+            "name": "event_time",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_12",
+            "name": "transaction_datetime",
+            "is_duplicate": false,
+            "group": null
+        }
+    ],
+    "duplicate_groups": {
+        "1": [
+            "timestamp",
+            "event_time"
+        ]
+    }
+}

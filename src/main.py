@@ -426,8 +426,8 @@ def process_attributes(input_file: str, config_path: Optional[str] = None, previ
             "total_attributes_in_final_output": len(final_df),
             "attributes_kept": int(final_df['keep'].sum()),
             "attributes_marked_for_removal (duplicates)": int((~final_df['keep']).sum()),
-            "unique_clusters_identified_by_vector_embedding": int(attributes_df['cluster_id'].nunique()),
-            "duplicate_groups_identified_by_llm": int(final_df['duplicate_group_id'].nunique()),
+            "unique_clusters_identified_by_vector_embedding": int(final_df['cluster_id'].nunique() if 'cluster_id' in final_df.columns else 0),
+            "duplicate_groups_identified_by_llm": int(final_df['duplicate_group_id'].nunique() if 'duplicate_group_id' in final_df.columns else 0),
             "execution_time_seconds": round(time.time() - start_time, 2),
             "final_csv_path": str(final_output_path.resolve())
         }

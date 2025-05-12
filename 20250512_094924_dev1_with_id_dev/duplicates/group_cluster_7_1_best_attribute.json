@@ -1,0 +1,10 @@
+{
+    "group_id": "cluster_7_1",
+    "attributes": [
+        "address",
+        "location"
+    ],
+    "best_attribute": "address",
+    "best_attribute_id": "attr_19",
+    "reasoning": "The 'address' attribute has a clear, descriptive name that follows standard naming conventions and a precise definition of 'Physical address of the customer,' making it more specific and aligned with industry standards compared to 'location.'"
+}

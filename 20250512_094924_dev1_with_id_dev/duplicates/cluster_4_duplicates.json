@@ -1,0 +1,265 @@
+{
+    "attributes": [
+        "attribute_0",
+        "attribute_1",
+        "attribute_2",
+        "attribute_5",
+        "attribute_7",
+        "attribute_8",
+        "attribute_9",
+        "attribute_10",
+        "attribute_12",
+        "attribute_15",
+        "attribute_16",
+        "attribute_19",
+        "attribute_20",
+        "attribute_22",
+        "attribute_23",
+        "attribute_25",
+        "attribute_26",
+        "attribute_29",
+        "attribute_30",
+        "attribute_31",
+        "attribute_32",
+        "attribute_34",
+        "attribute_35",
+        "attribute_36",
+        "attribute_37",
+        "attribute_38",
+        "attribute_39",
+        "attribute_40",
+        "attribute_41",
+        "attribute_44",
+        "attribute_45",
+        "attribute_47",
+        "attribute_48",
+        "attribute_50",
+        "attribute_51",
+        "attribute_52",
+        "attribute_55",
+        "attribute_56",
+        "attribute_57",
+        "attribute_58",
+        "attribute_59",
+        "attribute_60",
+        "attribute_61"
+    ],
+    "duplicates": [
+        {
+            "id": "attr_37",
+            "name": "attribute_0",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_38",
+            "name": "attribute_1",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_39",
+            "name": "attribute_2",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_42",
+            "name": "attribute_5",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_44",
+            "name": "attribute_7",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_45",
+            "name": "attribute_8",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_46",
+            "name": "attribute_9",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_47",
+            "name": "attribute_10",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_49",
+            "name": "attribute_12",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_52",
+            "name": "attribute_15",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_53",
+            "name": "attribute_16",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_56",
+            "name": "attribute_19",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_57",
+            "name": "attribute_20",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_59",
+            "name": "attribute_22",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_60",
+            "name": "attribute_23",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_62",
+            "name": "attribute_25",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_63",
+            "name": "attribute_26",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_66",
+            "name": "attribute_29",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_67",
+            "name": "attribute_30",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_68",
+            "name": "attribute_31",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_69",
+            "name": "attribute_32",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_71",
+            "name": "attribute_34",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_72",
+            "name": "attribute_35",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_73",
+            "name": "attribute_36",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_74",
+            "name": "attribute_37",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_75",
+            "name": "attribute_38",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_76",
+            "name": "attribute_39",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_77",
+            "name": "attribute_40",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_78",
+            "name": "attribute_41",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_81",
+            "name": "attribute_44",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_82",
+            "name": "attribute_45",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_84",
+            "name": "attribute_47",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_85",
+            "name": "attribute_48",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_87",
+            "name": "attribute_50",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_88",
+            "name": "attribute_51",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_89",
+            "name": "attribute_52",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_92",
+            "name": "attribute_55",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_93",
+            "name": "attribute_56",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_94",
+            "name": "attribute_57",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_95",
+            "name": "attribute_58",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_96",
+            "name": "attribute_59",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_97",
+            "name": "attribute_60",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_98",
+            "name": "attribute_61",
+            "is_duplicate": false
+        }
+    ],
+    "duplicate_groups": {}
+}

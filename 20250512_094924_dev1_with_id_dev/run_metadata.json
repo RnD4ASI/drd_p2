@@ -1,0 +1,35 @@
+{
+    "run_id": "20250512_094924_dev1_with_id_dev",
+    "timestamp": "2025-05-12T10:47:20.049740",
+    "input_file": "/Users/samcc/Documents/WindsurfProject/drd_dedup2/data/dev1_with_id.csv",
+    "output_directory": "/Users/samcc/Documents/WindsurfProject/drd_dedup2/result/20250512_094924_dev1_with_id_dev",
+    "log_file": "/Users/samcc/Documents/WindsurfProject/drd_dedup2/result/20250512_094924_dev1_with_id_dev/deduplication.log",
+    "config": {
+        "embedding": {
+            "model_path": "model/finance_embeddings",
+            "provider": "huggingface"
+        },
+        "clustering": {
+            "max_cluster_size": 10,
+            "max_clusters": 50
+        },
+        "language_model": {
+            "model_path": "model/qwen3-1.7B",
+            "provider": "huggingface"
+        },
+        "output": {
+            "tmp_dir": "tmp",
+            "result_dir": "result"
+        }
+    },
+    "incremental_mode": false,
+    "previous_results_file": null,
+    "total_attributes_processed": 100,
+    "total_attributes_in_final_output": 100,
+    "attributes_kept": 85,
+    "attributes_marked_for_removal (duplicates)": 15,
+    "unique_clusters_identified_by_vector_embedding": 10,
+    "duplicate_groups_identified_by_llm": 11,
+    "execution_time_seconds": 3472.81,
+    "final_csv_path": "/Users/samcc/Documents/WindsurfProject/drd_dedup2/result/20250512_094924_dev1_with_id_dev/deduplication_results.csv"
+}

@@ -1,0 +1,133 @@
+{
+    "attributes": [
+        "attribute_3",
+        "attribute_4",
+        "attribute_6",
+        "attribute_11",
+        "attribute_13",
+        "attribute_14",
+        "attribute_17",
+        "attribute_18",
+        "attribute_21",
+        "attribute_24",
+        "attribute_27",
+        "attribute_28",
+        "attribute_33",
+        "attribute_42",
+        "attribute_43",
+        "attribute_46",
+        "attribute_49",
+        "attribute_53",
+        "attribute_54",
+        "attribute_62",
+        "attribute_63"
+    ],
+    "duplicates": [
+        {
+            "id": "attr_40",
+            "name": "attribute_3",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_41",
+            "name": "attribute_4",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_43",
+            "name": "attribute_6",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_48",
+            "name": "attribute_11",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_50",
+            "name": "attribute_13",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_51",
+            "name": "attribute_14",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_54",
+            "name": "attribute_17",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_55",
+            "name": "attribute_18",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_58",
+            "name": "attribute_21",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_61",
+            "name": "attribute_24",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_64",
+            "name": "attribute_27",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_65",
+            "name": "attribute_28",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_70",
+            "name": "attribute_33",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_79",
+            "name": "attribute_42",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_80",
+            "name": "attribute_43",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_83",
+            "name": "attribute_46",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_86",
+            "name": "attribute_49",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_90",
+            "name": "attribute_53",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_91",
+            "name": "attribute_54",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_99",
+            "name": "attribute_62",
+            "is_duplicate": false
+        },
+        {
+            "id": "attr_100",
+            "name": "attribute_63",
+            "is_duplicate": false
+        }
+    ],
+    "duplicate_groups": {}
+}

@@ -1,0 +1,101 @@
+attribute_id,attribute_name,attribute_definition,cluster_id,is_duplicate,duplicate_group_id,best_attribute_id_for_group,best_attribute_reasoning_for_group,keep,source,first_seen_in_round
+attr_1,customer_id,Unique identifier for the customer,9,False,,,,True,new,1
+attr_2,client_id,Unique identifier for the client,9,False,,,,True,new,1
+attr_3,user_identifier,Unique identifier for the user,9,False,,,,True,new,1
+attr_4,transaction_amount,Amount of the transaction in dollars,5,True,cluster_5_1,attr_5,"This attribute has a clear, descriptive name that follows standard naming conventions and has a comprehensive definition that accurately describes its purpose.",False,new,1
+attr_5,payment_value,Value of the payment in dollars,5,True,cluster_5_1,attr_5,"This attribute has a clear, descriptive name that follows standard naming conventions and has a comprehensive definition that accurately describes its purpose.",True,new,1
+attr_6,monetary_sum,Sum of money in dollars,5,True,cluster_5_1,attr_5,"This attribute has a clear, descriptive name that follows standard naming conventions and has a comprehensive definition that accurately describes its purpose.",False,new,1
+attr_7,product_category,Category of the product,8,True,cluster_8_1,attr_9,"The 'product_classification' attribute uses a more precise and industry-standard term ('classification') that aligns with data modeling practices, providing a comprehensive definition of a structured product categorization system.",False,new,1
+attr_8,item_type,Type of the item,8,False,,,,True,new,1
+attr_9,product_classification,Classification of the product,8,True,cluster_8_1,attr_9,"The 'product_classification' attribute uses a more precise and industry-standard term ('classification') that aligns with data modeling practices, providing a comprehensive definition of a structured product categorization system.",True,new,1
+attr_10,timestamp,Time when the event occurred,0,True,cluster_0_1,attr_10,"The 'timestamp' attribute follows standard naming conventions, is widely recognized in data management, and has a clear, concise definition that accurately describes the time when an event occurred.",True,new,1
+attr_11,event_time,Time when the event took place,0,True,cluster_0_1,attr_10,"The 'timestamp' attribute follows standard naming conventions, is widely recognized in data management, and has a clear, concise definition that accurately describes the time when an event occurred.",False,new,1
+attr_12,transaction_datetime,Date and time of the transaction,0,False,,,,True,new,1
+attr_13,email_address,Email address of the customer,2,True,cluster_2_1,attr_13,"This attribute has a clear, descriptive name that follows standard naming conventions and has a comprehensive definition that accurately describes its purpose.",True,new,1
+attr_14,contact_email,Email contact information,2,True,cluster_2_1,attr_13,"This attribute has a clear, descriptive name that follows standard naming conventions and has a comprehensive definition that accurately describes its purpose.",False,new,1
+attr_15,electronic_mail,Electronic mail address for communication,2,True,cluster_2_1,attr_13,"This attribute has a clear, descriptive name that follows standard naming conventions and has a comprehensive definition that accurately describes its purpose.",False,new,1
+attr_16,phone_number,Phone number of the customer,2,True,cluster_2_2,attr_16,"The 'phone_number' attribute follows standard naming conventions, has a clear and precise definition, and is widely used in data management practices to denote a customer's phone number.",True,new,1
+attr_17,contact_phone,Phone contact information,2,True,cluster_2_2,attr_16,"The 'phone_number' attribute follows standard naming conventions, has a clear and precise definition, and is widely used in data management practices to denote a customer's phone number.",False,new,1
+attr_18,telephone,Telephone number for communication,2,True,cluster_2_2,attr_16,"The 'phone_number' attribute follows standard naming conventions, has a clear and precise definition, and is widely used in data management practices to denote a customer's phone number.",False,new,1
+attr_19,address,Physical address of the customer,7,True,cluster_7_1,attr_19,"The 'address' attribute has a clear, descriptive name that follows standard naming conventions and a precise definition of 'Physical address of the customer,' making it more specific and aligned with industry standards compared to 'location.'",True,new,1
+attr_20,location,Location of the customer,7,True,cluster_7_1,attr_19,"The 'address' attribute has a clear, descriptive name that follows standard naming conventions and a precise definition of 'Physical address of the customer,' making it more specific and aligned with industry standards compared to 'location.'",False,new,1
+attr_21,residence,Place of residence,7,False,,,,True,new,1
+attr_22,first_name,First name of the customer,9,True,cluster_9_2,attr_22,"The 'first_name' attribute follows standard naming conventions, has a clear and precise definition, and is widely used in data models to denote the first name of a customer.",True,new,1
+attr_23,given_name,Given name of the person,3,True,cluster_3_1,attr_23,"The attribute 'given_name' has a clear, descriptive name that follows standard naming conventions, a comprehensive and precise definition of 'Given name of the person', and aligns with industry standards for identifying personal identifiers.",True,new,1
+attr_24,forename,Forename of the individual,3,True,cluster_3_1,attr_23,"The attribute 'given_name' has a clear, descriptive name that follows standard naming conventions, a comprehensive and precise definition of 'Given name of the person', and aligns with industry standards for identifying personal identifiers.",False,new,1
+attr_25,last_name,Last name of the customer,9,True,cluster_9_2,attr_22,"The 'first_name' attribute follows standard naming conventions, has a clear and precise definition, and is widely used in data models to denote the first name of a customer.",False,new,1
+attr_26,surname,Surname of the person,3,True,cluster_3_2,attr_26,"The 'surname' attribute follows standard naming conventions, is widely recognized in data management practices, and provides a clear, concise definition that accurately describes the last name of a person.",True,new,1
+attr_27,family_name,Family name of the individual,3,True,cluster_3_2,attr_26,"The 'surname' attribute follows standard naming conventions, is widely recognized in data management practices, and provides a clear, concise definition that accurately describes the last name of a person.",False,new,1
+attr_28,age,Age of the customer in years,6,True,cluster_6_1,attr_30,"The attribute 'customer_age' has a clear, descriptive name that directly refers to the customer's age, and its definition 'Age of the customer' is precise and concise, aligning with standard data management practices.",False,new,1
+attr_29,years_old,How old the person is in years,6,True,cluster_6_1,attr_30,"The attribute 'customer_age' has a clear, descriptive name that directly refers to the customer's age, and its definition 'Age of the customer' is precise and concise, aligning with standard data management practices.",False,new,1
+attr_30,customer_age,Age of the customer,6,True,cluster_6_1,attr_30,"The attribute 'customer_age' has a clear, descriptive name that directly refers to the customer's age, and its definition 'Age of the customer' is precise and concise, aligning with standard data management practices.",True,new,1
+attr_31,gender,Gender of the customer,6,False,,,,True,new,1
+attr_32,sex,Sex of the person,6,False,,,,True,new,1
+attr_33,gender_identity,Gender identity of the individual,3,False,,,,True,new,1
+attr_34,income,Annual income of the customer,6,False,,,,True,new,1
+attr_35,annual_salary,Annual salary of the person,3,True,cluster_3_3,attr_35,"The attribute 'annual_salary' uses a clear, standard naming convention with 'annual' directly indicating the yearly nature of the salary, which aligns with industry practices. It is concise, descriptive, and follows common terminology used in payroll and financial contexts.",True,new,1
+attr_36,yearly_earnings,Yearly earnings of the individual,3,True,cluster_3_3,attr_35,"The attribute 'annual_salary' uses a clear, standard naming convention with 'annual' directly indicating the yearly nature of the salary, which aligns with industry practices. It is concise, descriptive, and follows common terminology used in payroll and financial contexts.",False,new,1
+attr_37,attribute_0,Definition for attribute_0,4,False,,,,True,new,1
+attr_38,attribute_1,Definition for attribute_1,4,False,,,,True,new,1
+attr_39,attribute_2,Definition for attribute_2,4,False,,,,True,new,1
+attr_40,attribute_3,Definition for attribute_3,1,False,,,,True,new,1
+attr_41,attribute_4,Definition for attribute_4,1,False,,,,True,new,1
+attr_42,attribute_5,Definition for attribute_5,4,False,,,,True,new,1
+attr_43,attribute_6,Definition for attribute_6,1,False,,,,True,new,1
+attr_44,attribute_7,Definition for attribute_7,4,False,,,,True,new,1
+attr_45,attribute_8,Definition for attribute_8,4,False,,,,True,new,1
+attr_46,attribute_9,Definition for attribute_9,4,False,,,,True,new,1
+attr_47,attribute_10,Definition for attribute_10,4,False,,,,True,new,1
+attr_48,attribute_11,Definition for attribute_11,1,False,,,,True,new,1
+attr_49,attribute_12,Definition for attribute_12,4,False,,,,True,new,1
+attr_50,attribute_13,Definition for attribute_13,1,False,,,,True,new,1
+attr_51,attribute_14,Definition for attribute_14,1,False,,,,True,new,1
+attr_52,attribute_15,Definition for attribute_15,4,False,,,,True,new,1
+attr_53,attribute_16,Definition for attribute_16,4,False,,,,True,new,1
+attr_54,attribute_17,Definition for attribute_17,1,False,,,,True,new,1
+attr_55,attribute_18,Definition for attribute_18,1,False,,,,True,new,1
+attr_56,attribute_19,Definition for attribute_19,4,False,,,,True,new,1
+attr_57,attribute_20,Definition for attribute_20,4,False,,,,True,new,1
+attr_58,attribute_21,Definition for attribute_21,1,False,,,,True,new,1
+attr_59,attribute_22,Definition for attribute_22,4,False,,,,True,new,1
+attr_60,attribute_23,Definition for attribute_23,4,False,,,,True,new,1
+attr_61,attribute_24,Definition for attribute_24,1,False,,,,True,new,1
+attr_62,attribute_25,Definition for attribute_25,4,False,,,,True,new,1
+attr_63,attribute_26,Definition for attribute_26,4,False,,,,True,new,1
+attr_64,attribute_27,Definition for attribute_27,1,False,,,,True,new,1
+attr_65,attribute_28,Definition for attribute_28,1,False,,,,True,new,1
+attr_66,attribute_29,Definition for attribute_29,4,False,,,,True,new,1
+attr_67,attribute_30,Definition for attribute_30,4,False,,,,True,new,1
+attr_68,attribute_31,Definition for attribute_31,4,False,,,,True,new,1
+attr_69,attribute_32,Definition for attribute_32,4,False,,,,True,new,1
+attr_70,attribute_33,Definition for attribute_33,1,False,,,,True,new,1
+attr_71,attribute_34,Definition for attribute_34,4,False,,,,True,new,1
+attr_72,attribute_35,Definition for attribute_35,4,False,,,,True,new,1
+attr_73,attribute_36,Definition for attribute_36,4,False,,,,True,new,1
+attr_74,attribute_37,Definition for attribute_37,4,False,,,,True,new,1
+attr_75,attribute_38,Definition for attribute_38,4,False,,,,True,new,1
+attr_76,attribute_39,Definition for attribute_39,4,False,,,,True,new,1
+attr_77,attribute_40,Definition for attribute_40,4,False,,,,True,new,1
+attr_78,attribute_41,Definition for attribute_41,4,False,,,,True,new,1
+attr_79,attribute_42,Definition for attribute_42,1,False,,,,True,new,1
+attr_80,attribute_43,Definition for attribute_43,1,False,,,,True,new,1
+attr_81,attribute_44,Definition for attribute_44,4,False,,,,True,new,1
+attr_82,attribute_45,Definition for attribute_45,4,False,,,,True,new,1
+attr_83,attribute_46,Definition for attribute_46,1,False,,,,True,new,1
+attr_84,attribute_47,Definition for attribute_47,4,False,,,,True,new,1
+attr_85,attribute_48,Definition for attribute_48,4,False,,,,True,new,1
+attr_86,attribute_49,Definition for attribute_49,1,False,,,,True,new,1
+attr_87,attribute_50,Definition for attribute_50,4,False,,,,True,new,1
+attr_88,attribute_51,Definition for attribute_51,4,False,,,,True,new,1
+attr_89,attribute_52,Definition for attribute_52,4,False,,,,True,new,1
+attr_90,attribute_53,Definition for attribute_53,1,False,,,,True,new,1
+attr_91,attribute_54,Definition for attribute_54,1,False,,,,True,new,1
+attr_92,attribute_55,Definition for attribute_55,4,False,,,,True,new,1
+attr_93,attribute_56,Definition for attribute_56,4,False,,,,True,new,1
+attr_94,attribute_57,Definition for attribute_57,4,False,,,,True,new,1
+attr_95,attribute_58,Definition for attribute_58,4,False,,,,True,new,1
+attr_96,attribute_59,Definition for attribute_59,4,False,,,,True,new,1
+attr_97,attribute_60,Definition for attribute_60,4,False,,,,True,new,1
+attr_98,attribute_61,Definition for attribute_61,4,False,,,,True,new,1
+attr_99,attribute_62,Definition for attribute_62,1,False,,,,True,new,1
+attr_100,attribute_63,Definition for attribute_63,1,False,,,,True,new,1

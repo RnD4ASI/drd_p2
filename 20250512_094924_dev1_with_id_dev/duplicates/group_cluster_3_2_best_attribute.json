@@ -1,0 +1,10 @@
+{
+    "group_id": "cluster_3_2",
+    "attributes": [
+        "surname",
+        "family_name"
+    ],
+    "best_attribute": "surname",
+    "best_attribute_id": "attr_26",
+    "reasoning": "The 'surname' attribute follows standard naming conventions, is widely recognized in data management practices, and provides a clear, concise definition that accurately describes the last name of a person."
+}

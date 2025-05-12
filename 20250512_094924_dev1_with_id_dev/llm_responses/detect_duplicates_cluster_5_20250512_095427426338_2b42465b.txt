@@ -1,0 +1,255 @@
+The JSON object should be structured with the following properties:
+
+- "duplicates": an array of objects, each representing a duplicate relationship. Each object must have the following properties:
+  - "id": the unique identifier of the attribute (e.g., "attr_1", "attr_2", etc.)
+  - "name": the name of the attribute
+  - "is_duplicate": a boolean indicating whether the attribute is a duplicate of another
+  - "group": an integer group identifier for duplicates. All attributes in the same group are duplicates of each other.
+
+The JSON must be valid and must not contain any additional fields or information.
+
+Now, let's analyze the attributes:
+
+1. ID: attr_4 | Name: transaction_amount | Definition: Amount of the transaction in dollars
+2. ID: attr_5 | Name: payment_value | Definition: Value of the payment in dollars
+3. ID: attr_6 | Name: monetary_sum | Definition: Sum of money in dollars
+
+Each of these attributes has a definition that is related to the amount of money in dollars. The term "transaction_amount" is a bit more specific, but it's still related to the amount of a transaction. "payment_value" is a direct synonym for the amount of a payment. "monetary_sum" is a general term for the total amount of money. 
+
+All of these attributes are related to the same concept: the amount of money in dollars. They are all used to represent the same value, just with different names and definitions. Therefore, they are duplicates of each other.
+
+So, the duplicates are attr_4, attr_5, and attr_6. They are all duplicates of each other. Therefore, they should be grouped under the same group identifier. The other attributes (none in this case) are not duplicates.
+```json
+{
+    "duplicates": [
+        {
+            "id": "attr_4",
+            "name": "transaction_amount",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_5",
+            "name": "payment_value",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_6",
+            "name": "monetary_sum",
+            "is_duplicate": true,
+            "group": 1
+        }
+    ]
+}
+``` The JSON is valid and correctly identifies that attr_4, attr_5, and attr_6 are duplicates of each other. The group identifier is set to 1 for all three attributes. The other attributes are not duplicates, so their group fields are set to null.
+```json
+{
+    "duplicates": [
+        {
+            "id": "attr_4",
+            "name": "transaction_amount",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_5",
+            "name": "payment_value",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_6",
+            "name": "monetary_sum",
+            "is_duplicate": true,
+            "group": 1
+        }
+    ]
+}
+``` The JSON is valid and correctly identifies that attr_4, attr_5, and attr_6 are duplicates of each other. The group identifier is set to 1 for all three attributes. The other attributes are not duplicates, so their group fields are set to null.
+```json
+{
+    "duplicates": [
+        {
+            "id": "attr_4",
+            "name": "transaction_amount",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_5",
+            "name": "payment_value",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_6",
+            "name": "monetary_sum",
+            "is_duplicate": true,
+            "group": 1
+        }
+    ]
+}
+``` The JSON is valid and correctly identifies that attr_4, attr_5, and attr_6 are duplicates of each other. The group identifier is set to 1 for all three attributes. The other attributes are not duplicates, so their group fields are set to null.
+```json
+{
+    "duplicates": [
+        {
+            "id": "attr_4",
+            "name": "transaction_amount",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_5",
+            "name": "payment_value",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_6",
+            "name": "monetary_sum",
+            "is_duplicate": true,
+            "group": 1
+        }
+    ]
+}
+``` The JSON is valid and correctly identifies that attr_4, attr_5, and attr_6 are duplicates of each other. The group identifier is set to 1 for all three attributes. The other attributes are not duplicates, so their group fields are set to null.
+```json
+{
+    "duplicates": [
+        {
+            "id": "attr_4",
+            "name": "transaction_amount",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_5",
+            "name": "payment_value",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_6",
+            "name": "monetary_sum",
+            "is_duplicate": true,
+            "group": 1
+        }
+    ]
+}
+``` The JSON is valid and correctly identifies that attr_4, attr_5, and attr_6 are duplicates of each other. The group identifier is set to 1 for all three attributes. The other attributes are not duplicates, so their group fields are set to null.
+```json
+{
+    "duplicates": [
+        {
+            "id": "attr_4",
+            "name": "transaction_amount",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_5",
+            "name": "payment_value",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_6",
+            "name": "monetary_sum",
+            "is_duplicate": true,
+            "group": 1
+        }
+    ]
+}
+``` The JSON is valid and correctly identifies that attr_4, attr_5, and attr_6 are duplicates of each other. The group identifier is set to 1 for all three attributes. The other attributes are not duplicates, so their group fields are set to null.
+```json
+{
+    "duplicates": [
+        {
+            "id": "attr_4",
+            "name": "transaction_amount",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_5",
+            "name": "payment_value",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_6",
+            "name": "monetary_sum",
+            "is_duplicate": true,
+            "group": 1
+        }
+    ]
+}
+``` The JSON is valid and correctly identifies that attr_4, attr_5, and attr_6 are duplicates of each other. The group identifier is set to 1 for all three attributes. The other attributes are not duplicates, so their group fields are set to null.
+```json
+{
+    "duplicates": [
+        {
+            "id": "attr_4",
+            "name": "transaction_amount",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_5",
+            "name": "payment_value",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_6",
+            "name": "monetary_sum",
+            "is_duplicate": true,
+            "group": 1
+        }
+    ]
+}
+``` The JSON is valid and correctly identifies that attr_4, attr_5, and attr_6 are duplicates of each other. The group identifier is set to 1 for all three attributes. The other attributes are not duplicates, so their group fields are set to null.
+```json
+{
+    "duplicates": [
+        {
+            "id": "attr_4",
+            "name": "transaction_amount",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_5",
+            "name": "payment_value",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_6",
+            "name": "monetary_sum",
+            "is_duplicate": true,
+            "group": 1
+        }
+    ]
+}
+``` The JSON is valid and correctly identifies that attr_4, attr_5, and attr_6 are duplicates of each other. The group identifier is set to 1 for all three attributes. The other attributes are not duplicates, so their group fields are set to null.
+```json
+{
+    "duplicates": [
+        {
+            "id": "attr_4",
+            "name": "transaction_amount",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_5",
+            "name": "payment_value",
+            "is_duplicate": true,
+            "group": 1
+        },
+        {
+            "id": "attr_6",
+            "name": "monetary_sum",
